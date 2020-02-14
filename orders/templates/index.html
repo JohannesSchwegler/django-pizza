@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="container py-5 text-center">
+  <h1>Welcome to CloudChat! </h1>
+  <h1>{{ message }}</h1>
+  <p class="cc-error"></p>
+  <input class="cc-username" />
+  <button id="register-user" class="btn btn-primary">Continue</button>
+
+</div>
+
+{% endblock %}
